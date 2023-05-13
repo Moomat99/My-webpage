@@ -1,0 +1,51 @@
+
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+main{
+  background-image: url("https://images.unsplash.com/photo-1544959068-7c75914bf21e?");
+  background-position: center;
+}
+footer{
+  font-size: 24px;
+  font-family: cursive;
+  background-color: #224057;
+  padding: 20px;
+  text-align: center;
+  font-size: auto;
+  color: #000000;
+}
+.head {
+  font-size: 25px;
+  font-family: cursive;
+  background-color: #224057;
+  padding: 50px;
+  text-align: center;
+  font-size: auto;
+  color: #000000;}
+header{
+  height: 100px;
+  
+}
+main{
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  padding:130px
+}
+.about{
+  padding-left: 200px;
+  padding-right:200px;
+}
+footer{
+  font-size: 22px;
+}
