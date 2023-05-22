@@ -4,16 +4,19 @@ html {
   width: 100%;
   text-align: center;
 }
+.about
+/* The image for the webpage*/
 img{
   width: 250px;
   height: 250px;
   border-radius: 150px;
+  margin: 300px;
 }
-main{
-  background-image: url("https://images.unsplash.com/photo-1544959068-7c75914bf21e?");
-  background-position: center;
-}
+
+
+/* The footer of the webpage */
 footer{
+
   font-size: 24px;
   font-family: cursive;
   background-color: #224057;
@@ -22,7 +25,9 @@ footer{
   font-size: auto;
   color: #000000;
 }
+/*The header of the page*/
 .head {
+
   font-size: 25px;
   font-family: cursive;
   background-color: #224057;
@@ -31,9 +36,14 @@ footer{
   font-size: auto;
   color: #000000;}
 header{
-  height: 100px;
-  
+  height: 150px;
+  /* the main is where all the information will lay and will be the main event of the webpage. */
 }
+main{
+  background-image: url("https://images.unsplash.com/photo-1544959068-7c75914bf21e?");
+  background-position: center;
+}
+
 main{
   background-color: #ffffff;
   padding: 20px;
@@ -42,10 +52,22 @@ main{
   color: #000000;
   padding:130px
 }
+
 .about{
   padding-left: 200px;
   padding-right:200px;
 }
 footer{
   font-size: 22px;
+}
+/*Add's nice style to the p element*/
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+/* Style the navigation menu */
+a:hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
 }
